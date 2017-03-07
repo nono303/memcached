@@ -1,0 +1,1 @@
+# memcached builds for Windows
