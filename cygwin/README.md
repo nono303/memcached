@@ -4,7 +4,7 @@
 ####  - cygwin1.dll version 2.7.0
 ####  - cygevent.dll version 2.0.5
 
-## PATCH
+## PATCH memcached.c
 ### 1.4.25
 
     5087c5087
@@ -25,3 +25,10 @@
     <                    fprintf(stderr, "idle timeout thread sleeping for %ldus\n",
     ---
     >                    fprintf(stderr, "idle timeout thread sleeping for %ulus\n",
+
+### 1.4.36
+
+    328c328
+    <                    fprintf(stderr, "idle timeout thread sleeping for %ldus\n",
+    ---
+    >                    fprintf(stderr, "idle timeout thread sleeping for %ulus\n", 
