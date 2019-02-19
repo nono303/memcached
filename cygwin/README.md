@@ -1,7 +1,7 @@
 # memcached cygwin builds x86 & x64 
 ## standalone runtime
-####  - gcc version 7.3.0
-####  - cygwin1.dll version 2.11.1
+####  - gcc version 7.4.0
+####  - cygwin1.dll version 3.0.0
 ####  - cygevent.dll version 2.0.5
 
 ## PATCH memcached.c
