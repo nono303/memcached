@@ -1,4 +1,4 @@
-# Memcached - Windows Cygwin binaries#
+# Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 
 ----
