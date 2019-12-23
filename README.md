@@ -2,10 +2,10 @@
 - https://github.com/memcached/memcached
 
 ----
-2019-11-12
+2019-12-23
 > **version [1.5.20](https://github.com/memcached/memcached/tree/1.5.20)**
 
-  - cygwin1.dll version 3.0.7
+  - cygwin1.dll version 3.1.2
   - cygevent.dll version 2.0.5
   - gcc version 7.4.0
 
