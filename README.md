@@ -1,10 +1,10 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-2020-02-06
+2020-02-25
 > **version [1.5.22](https://github.com/memcached/memcached/tree/1.5.22)**
-  - cygwin version `3.1.2`
-  - gcc version `9.2.0`
+  - cygwin version `3.1.4`
+  - gcc version `9.2.0.2`
 
 **Released versions**
   - **x86 & x64**
@@ -12,7 +12,7 @@
   - **TLS**
 -----
 **Exec Dependencies**
- - cygwin `3.1.2`
+ - cygwin `3.1.4`
    - cygwin1.dll
  - libevent `2.0.5`
    - cygevent_core-2-0-5.dll
@@ -29,7 +29,7 @@
     - cygz.dll
 
 ![](https://placehold.it/15/FFA500/000000?text=+) for **x86 TLS** only
-  - libgcc `9.2.0`
+  - libgcc `9.2.0.2`
     - cyggcc_s-1.dll
 ----
 > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
