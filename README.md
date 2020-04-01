@@ -2,7 +2,7 @@
 - https://github.com/memcached/memcached
 ----
 2020-04-01
-> **version [1.6.2](https://github.com/memcached/memcached/tree/1.6.)**
+> **version [1.6.3](https://github.com/memcached/memcached/tree/1.6.3)**
   - cygwin version `3.1.4`
   - gcc version `9.3.0`
 
