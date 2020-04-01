@@ -10,7 +10,7 @@
   - **x86 & x64**
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
-  - **External Storage DISABLED** _(see [#639](https://github.com/memcached/memcached/issues/639))_
+  - **External Storage Cygwin patched _(see [#639](https://github.com/memcached/memcached/issues/639))_
 -----
 **Exec Dependencies**
  - cygwin `3.1.4`
