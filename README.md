@@ -2,7 +2,7 @@
 - https://github.com/memcached/memcached
 ----
 2020-04-14
-> **version [1.6.4](https://github.com/memcached/memcached/tree/1.6.4)**
+> **version [1.6.5](https://github.com/memcached/memcached/tree/1.6.5)**
   - cygwin version `3.1.4`
   - gcc version `9.3.0`
 
@@ -10,7 +10,6 @@
   - **x86 & x64**
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
-  - **External Storage for Cygwin patched** _(see [#639](https://github.com/memcached/memcached/issues/639))_
 -----
 **Exec Dependencies**
  - cygwin `3.1.4`
