@@ -1,10 +1,10 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-2020-08-04
+2020-08-25
 
 > **version [1.6.6](https://github.com/memcached/memcached/tree/1.6.6)**
-  - cygwin version `3.1.6`
+  - cygwin version `3.1.7`
   - gcc version `9.3.0`
 
 **Released versions**
@@ -18,7 +18,7 @@
 - [@nono303/win-build-scripts](https://github.com/nono303/win-build-scripts)
 
 **Exec Dependencies**
- - cygwin `3.1.6`
+ - cygwin `3.1.7`
    - cygwin1.dll
  - libevent `2.0.22`
    - cygevent_core-2-0-5.dll
