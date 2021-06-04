@@ -21,12 +21,12 @@
 **Exec Dependencies**
  - **cygwin** `3.2.0`
    - *cygwin1.dll*
- - **libevent** `2.0.22`
-   - *cygevent_core-2-0-5.dll*
-   - *cygevent_extra-2-0-5.dll*
-   - *cygevent_openssl-2-0-5.dll*
-   - *cygevent_pthreads-2-0-5.dll*
-   - *cygevent-2-0-5.dll*
+ - **libevent** `2.1.12`
+   - *cygevent_core-2-1-7.dll*
+   - *cygevent_extra-2-1-7.dll*
+   - *cygevent_openssl-2-1-7.dll*
+   - *cygevent_pthreads-2-1-7.dll*
+   - *cygevent-2-1-7.dll*
 
 ![](https://placehold.it/15/FFA500/000000?text=+) for **TLS** only
   - **openssl** `1.1.1f`
