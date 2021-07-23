@@ -1,7 +1,7 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-2021-04-01
+2021-06-04
 
 > **version [1.6.9](https://github.com/memcached/memcached/tree/1.6.9)**
 
