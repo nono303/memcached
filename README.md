@@ -1,12 +1,12 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-2021-07-29
+2021-09-22
 
 > **version [1.6.10](https://github.com/memcached/memcached/tree/1.6.10)**
 
   - cygwin version `3.2.0`
-  - gcc version `10.2.0`
+  - gcc version `11.2.0`
 
 **Released versions**
 
@@ -21,11 +21,12 @@
 There is currently a runtime issue using libevent 2.1 (cygwin build) on old Windows versions : `_WIN32_WINNT <= 0X601`  
 > `*** fatal error - couldn't dynamically determine load address for 'QueryUnbiasedInterruptTime' (handle 0x7FEFD430000), Win32 error 127`  
 *see https://gitter.im/msys2/msys2?at=5ce7e6578f019114aeab45c0*  
-  
+
 So, I provide memcached with both libvent versions:  
 - `2.0.5` <= Windows 7  
 - `2.1.7` > Windows 7  
   
+
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
 -----
@@ -52,7 +53,7 @@ So, I provide memcached with both libvent versions:
     - *cygz.dll*  
 
 :warning: for **x86 TLS** only
-  - **libgcc** `10.2.0`
+  - **libgcc** `11.2.0`
     - *cyggcc_s-1.dll*
 ----
 > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
