@@ -1,9 +1,9 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-2021-12-12
+2022-01-14
 
-> **version [1.6.12](https://github.com/memcached/memcached/tree/1.6.12)**
+> **version [1.6.13](https://github.com/memcached/memcached/tree/1.6.13)**
 
   - cygwin version `3.3.3`
   - gcc version `11.2.0`
@@ -18,7 +18,7 @@
 
 :bangbang: **Libevent**  
 
-There is currently a runtime issue using libevent 2.1 (cygwin build) on old Windows versions : `_WIN32_WINNT <= 0X601`  
+There is currently a runtime issue using libevent **2.1** (Cygwin build) on old Windows versions : `_WIN32_WINNT <= 0X601`  
 > `*** fatal error - couldn't dynamically determine load address for 'QueryUnbiasedInterruptTime' (handle 0x7FEFD430000), Win32 error 127`  
 *see https://gitter.im/msys2/msys2?at=5ce7e6578f019114aeab45c0*  
 
