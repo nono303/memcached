@@ -1,9 +1,9 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-2022-02-11
+2022-04-05
 
-> **version [1.6.14](https://github.com/memcached/memcached/tree/1.6.14)**
+> **version [1.6.15](https://github.com/memcached/memcached/tree/1.6.15)**
 
   - cygwin version `3.3.4`
   - gcc version `11.2.0`
@@ -25,7 +25,6 @@ There is currently a runtime issue using libevent **2.1** (Cygwin build) on old 
 So, I provide memcached with both libvent versions:  
 - `2.0.5` <= Windows 7  
 - `2.1.7` > Windows 7  
-  
 
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
@@ -46,7 +45,7 @@ So, I provide memcached with both libvent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `1.1.1lm`
+  - **openssl** `1.1.1n`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
   - **zlib** `1.2.11`
