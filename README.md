@@ -6,7 +6,7 @@
 > **version [1.6.15](https://github.com/memcached/memcached/tree/1.6.15)**
 
   - cygwin version `3.3.4`
-  - gcc version `11.2.0`
+  - gcc version `11.3.0`
 
 **Released versions**
 
@@ -48,11 +48,11 @@ So, I provide memcached with both libvent versions:
   - **openssl** `1.1.1n`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
-  - **zlib** `1.2.11`
+  - **zlib** `1.2.12`
     - *cygz.dll*  
 
 :warning: for **x86 TLS** only
-  - **libgcc** `11.2.0`
+  - **libgcc** `11.3.0`
     - *cyggcc_s-1.dll*
 ----
 > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
