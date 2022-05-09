@@ -1,7 +1,7 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-2022-04-05
+2022-04-09
 
 > **version [1.6.15](https://github.com/memcached/memcached/tree/1.6.15)**
 
@@ -45,7 +45,7 @@ So, I provide memcached with both libvent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `1.1.1n`
+  - **openssl** `1.1.1o`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
   - **zlib** `1.2.12`
