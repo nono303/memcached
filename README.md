@@ -57,7 +57,9 @@ So, I provide memcached with both libvent versions:
   - **libgcc** `11.3.0`
     - *cyggcc_s-1.dll*
 
-**Install as a Windows service**
+----
+
+### Install as a Windows service
 
 `-d install` is not anymore available. You might use `nssm` to install memcached as a Windows service:
 
