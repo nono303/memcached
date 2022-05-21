@@ -56,5 +56,30 @@ So, I provide memcached with both libvent versions:
 :warning: for **x86 TLS** only
   - **libgcc** `11.3.0`
     - *cyggcc_s-1.dll*
+
+**Install as a Windows service**
+
+`-d install` is not anymore available. You might use `nssm` to install memcached as a Windows service:
+
+1. copy [nssm-2.25.0.exe corresponding to your system arch](https://github.com/nono303/memcached/tree/master/nssm) in memcached folder or somwhere in a Windows `%PATH%` folder
+
+2. run theses command - **changing absolute path `C:\memcached`** corresponding to your config
+
+   ```
+   nssm-2.25.0.exe install memcached C:\memcached\memcached-avx.exe
+   nssm-2.25.0.exe set memcached AppParameters "-vv -m 512 -I 256m"
+   nssm-2.25.0.exe set memcached AppDirectory C:\memcached
+   nssm-2.25.0.exe set memcached AppExit Default Restart
+   nssm-2.25.0.exe set memcached AppNoConsole 1
+   nssm-2.25.0.exe set memcached AppPriority ABOVE_NORMAL_PRIORITY_CLASS
+   nssm-2.25.0.exe set memcached AppStderr C:\memcached\logs\memcached.log
+   nssm-2.25.0.exe set memcached AppStopMethodSkip 6
+   nssm-2.25.0.exe set memcached AppTimestampLog 1
+   nssm-2.25.0.exe set memcached DisplayName memcached
+   nssm-2.25.0.exe set memcached ObjectName LocalSystem
+   nssm-2.25.0.exe set memcached Start SERVICE_AUTO_START
+   nssm-2.25.0.exe set memcached Type SERVICE_WIN32_OWN_PROCESS
+   ```
+
 ----
 > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
