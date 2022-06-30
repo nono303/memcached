@@ -5,7 +5,7 @@
 
 > 2022-03-30 - commit
 >
-> 2022-05-17 - build
+> 2022-06-30 - build
 
   - cygwin version `3.3.5`
   - gcc version `11.3.0`
@@ -47,7 +47,7 @@ So, I provide memcached with both libvent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `1.1.1o`
+  - **openssl** `1.1.1p`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
   - **zlib** `1.2.12`
