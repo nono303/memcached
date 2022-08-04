@@ -30,6 +30,12 @@ So, I provide memcached with both libvent versions:
 
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
+:warning:**AVX** or not (**SSE2**)
+
+- Check your cpu supported instructions with [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
+
+  >  ![](https://github.com/nono303/PHP-memcache-dll/raw/master/avx.png)
+
 -----
 **Build Scripts** 
 
