@@ -12,7 +12,8 @@
 
 **Released versions**
 
-  - **x86 & x64**
+  - **x64** 
+  - **x86** _(discontinued, see bellow)_
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
 
@@ -41,10 +42,31 @@ So, I provide memcached with both libvent versions:
 
 - [@nono303/win-build-scripts](https://github.com/nono303/win-build-scripts)
 
-**Exec Dependencies**
+ **x64 Exec Dependencies**
 
- - **cygwin** `3.3.6`
+ - **cygwin** `3.4.3`
    - *cygwin1.dll*
+ - :point_up:  **libevent** `2.X.Y` 
+   - *cygevent_core-2-X-Y.dll*
+   - *cygevent_extra-2-X-Y.dll*
+   - *cygevent_openssl-2-X-Y.dll*
+   - *cygevent_pthreads-2-X-Y.dll*
+   - *cygevent-2-X-Y.dll*
+
+:warning: for **TLS** only
+  - **openssl** `1.1.1s`
+    - *cygssl-1.1.dll*
+    - *cygcrypto-1.1.dll*
+  - **zlib** `1.2.13`
+    - *cygz.dll*  
+
+ **x86 Exec Dependencies**
+
+> :bangbang: Discontinued as cygwin 3.4.x x86 is not available 
+> Latest build 2022-09-20: **1.6.17** 
+
+- **cygwin** `3.3.6`
+  - *cygwin1.dll*
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
    - *cygevent_extra-2-X-Y.dll*
