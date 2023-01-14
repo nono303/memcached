@@ -1,19 +1,19 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-### version [1.6.17](https://github.com/memcached/memcached/tree/1.6.17)
+### version [1.6.18](https://github.com/memcached/memcached/tree/1.6.18)
 
-> 2022-08-26 - commit
+> 2023-01-11 - commit
 >
-> 2022-09-20 - build
+> 2023-01-14 - build
 
-  - cygwin version `3.3.6`
+  - cygwin version `3.4.3`
   - gcc version `11.3.0`
 
 **Released versions**
 
   - **x64** 
-  - **x86** _(discontinued, see bellow)_
+  - **x86**
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
 
@@ -25,9 +25,9 @@ There is currently a runtime issue using libevent **2.1** (Cygwin build) on old 
 > `*** fatal error - couldn't dynamically determine load address for 'QueryUnbiasedInterruptTime' (handle 0x7FEFD430000), Win32 error 127`  
 *see https://gitter.im/msys2/msys2?at=5ce7e6578f019114aeab45c0*  
 
-So, I provide memcached with both libvent versions:  
-- `2.0.5` <= Windows 7  
-- `2.1.7` > Windows 7  
+So, I provide memcached with both libevent versions:  
+- `2.0.22` <= Windows 7  
+- `2.1.12` > Windows 7  
 
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
@@ -62,11 +62,12 @@ So, I provide memcached with both libvent versions:
 
  **x86 Exec Dependencies**
 
-> :bangbang: Discontinued as cygwin 3.4.x x86 is not available 
-> Latest build 2022-09-20: **1.6.17** 
-
 - **cygwin** `3.3.6`
+
+  > :bangbang: cygwin 3.4.x discontinued as x86 is not available 
+
   - *cygwin1.dll*
+
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
    - *cygevent_extra-2-X-Y.dll*
@@ -75,10 +76,10 @@ So, I provide memcached with both libvent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `1.1.1q`
+  - **openssl** `1.1.1s`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
-  - **zlib** `1.2.12`
+  - **zlib** `1.2.13`
     - *cygz.dll*  
 
 :warning: for **x86 TLS** only
