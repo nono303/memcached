@@ -5,7 +5,7 @@
 
 > 2023-01-11 - commit
 >
-> 2023-01-14 - build
+> 2023-02-17 - build
 
 **Released versions**
 
@@ -41,7 +41,7 @@ So, I provide memcached with both libevent versions:
 
  **x64 Exec Dependencies**
 
- - **cygwin** `3.4.3`
+ - **cygwin** `3.4.6`
    - *cygwin1.dll*
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
