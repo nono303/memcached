@@ -1,11 +1,11 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-### version [1.6.18](https://github.com/memcached/memcached/tree/1.6.18)
+### version [1.6.19](https://github.com/memcached/memcached/tree/1.6.19)
 
-> 2023-01-11 - commit
+> 2023-03-08 - commit
 >
-> 2023-02-17 - build
+> 2023-03-09 - build
 
 **Released versions**
 
@@ -51,7 +51,7 @@ So, I provide memcached with both libevent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `1.1.1s`
+  - **openssl** `1.1.1t`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
   - **zlib** `1.2.13`
