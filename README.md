@@ -5,12 +5,12 @@
 
 > 2023-05-12 - commit
 >
-> 2023-06-05 - build
+> 2023-06-11 - build
 
 **Released versions**
 
-  - **x64** 
-  - **x86**
+  - **x64** - *gcc `11.4.0`*
+  - **x86** - *gcc `11.3.0`*
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
 
@@ -51,7 +51,7 @@ So, I provide memcached with both libevent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `1.1.1t`
+  - **openssl** `1.1.1u`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
   - **zlib** `1.2.13`
