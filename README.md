@@ -1,11 +1,11 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-### version [1.6.20](https://github.com/memcached/memcached/tree/1.6.20)
+### version [1.6.21](https://github.com/memcached/memcached/tree/1.6.21)
 
-> 2023-05-12 - commit
+> 2023-06-16 - commit
 >
-> 2023-06-11 - build
+> 2023-07-03 - build
 
 **Released versions**
 
@@ -41,7 +41,7 @@ So, I provide memcached with both libevent versions:
 
  **x64 Exec Dependencies**
 
- - **cygwin** `3.4.6`
+ - **cygwin** `3.4.7`
    - *cygwin1.dll*
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
