@@ -5,7 +5,7 @@
 
 **Released versions**
 
-  - **x64** - *gcc `11.4.0`* - 2023-10-19
+  - **x64** - *gcc `11.4.0`* - 2023-12-03
   - **x86** - *gcc `11.3.0`* - 2023-07-03
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
@@ -37,7 +37,7 @@ So, I provide memcached with both libevent versions:
 
  **x64 Exec Dependencies**
 
- - **cygwin** `3.4.9`
+ - **cygwin** `3.4.10`
    - *cygwin1.dll*
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
