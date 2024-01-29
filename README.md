@@ -5,8 +5,8 @@
 
 **Released versions**
 
-  - **x64** - *gcc `11.4.0`* - 2024-01-11
-  - **x86** - *gcc `11.3.0`* - 2023-07-03
+  - **x64** - *gcc `11.4.0`* - 2024-01-29
+  - **x86** - *gcc `11.3.0`* - 2023-07-03 :bangbang: _discontinued_
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
 
@@ -19,8 +19,8 @@ There is currently a runtime issue using libevent **2.1** (Cygwin build) on old 
 *see https://gitter.im/msys2/msys2?at=5ce7e6578f019114aeab45c0*  
 
 So, I provide memcached with both libevent versions:  
-- `2.0.22` <= Windows 7  
-- `2.1.12` > Windows 7  
+- `2.0.22` <= Windows 7 & **cygwin x64** `3.4.10`
+- `2.1.12` > Windows 7 & **cygwin x64** `3.5.0`
 
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
@@ -37,7 +37,7 @@ So, I provide memcached with both libevent versions:
 
  **x64 Exec Dependencies**
 
- - **cygwin** `3.4.10`
+ - **:point_up: cygwin** `3.X.X`
    - *cygwin1.dll*
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
@@ -50,17 +50,14 @@ So, I provide memcached with both libevent versions:
   - **openssl** `1.1.1w`
     - *cygssl-1.1.dll*
     - *cygcrypto-1.1.dll*
-  - **zlib** `1.3.0`
+  - **zlib** `1.3.1`
     - *cygz.dll*  
 
  **x86 Exec Dependencies**
 
 - **cygwin** `3.3.6`
-
-  > :bangbang: cygwin 3.4.x discontinued as x86 is not available 
-
   - *cygwin1.dll*
-
+  
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
    - *cygevent_extra-2-X-Y.dll*
