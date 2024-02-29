@@ -1,11 +1,11 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
 ----
-### version [1.6.23](https://github.com/memcached/memcached/tree/1.6.23) - 2024-01-09
+### version [1.6.24](https://github.com/memcached/memcached/tree/1.6.24) - 2024-02-27
 
 **Released versions**
 
-  - **x64** - *gcc `11.4.0`* - 2024-01-29
+  - **x64** - *gcc `11.4.0`* - 2024-02-29
   - **x86** - *gcc `11.3.0`* - 2023-07-03 :bangbang: _discontinued_
   - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
   - **TLS**
@@ -20,7 +20,7 @@ There is currently a runtime issue using libevent **2.1** (Cygwin build) on old 
 
 So, I provide memcached with both libevent versions:  
 - `2.0.22` <= Windows 7 & **cygwin x64** `3.4.10`
-- `2.1.12` > Windows 7 & **cygwin x64** `3.5.0`
+- `2.1.12` > Windows 7 & **cygwin x64** `3.5.1`
 
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
