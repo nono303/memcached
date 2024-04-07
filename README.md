@@ -1,17 +1,8 @@
 # Memcached - Windows Cygwin binaries #
 - https://github.com/memcached/memcached
-----
-### version [1.6.24](https://github.com/memcached/memcached/tree/1.6.24) - 2024-02-27
-
-**Released versions**
-
-  - **x64** - *gcc `11.4.0`* - 2024-02-29
-  - **x86** - *gcc `11.3.0`* - 2023-07-03 :bangbang: _discontinued_
-  - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx)**
-  - **TLS**
-
+- https://github.com/nono303/win-build-scripts
 ---
-
+### Get the good version
 :bangbang: **Libevent**  
 
 There is currently a runtime issue using libevent **2.1** (Cygwin build) on old Windows versions : `_WIN32_WINNT <= 0X601`  
@@ -24,18 +15,35 @@ So, I provide memcached with both libevent versions:
 
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
-:warning:**AVX** or not (**SSE2**)
+:warning: **AVX / AVX2**  or not (**SSE2**)
 
 - Check your cpu supported instructions with [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
 
   >  ![](https://github.com/nono303/PHP-memcache-dll/raw/master/avx.png)
 
+:fast_forward: **TLS support**
+
+- Ff you need tls support, just choose `*-tls.exe` version
+
+----
+
+### Release
+
+  > _:warning: Only **x64 libevent 2.1** is maintained_
+  > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
+
+  - **x64**
+    - **1.6.26**: libevent `2.1.12` ​_2024-04-07_
+    - **1.6.24**: libevent `2.0.22` _2024-02-29_ 
+
+  - **x86**
+    - **1.6.21**: libevent `2.1.12` _2023-07-03_
+    - **1.6.21**: libevent `2.0.22` _2023-07-23_
+
 -----
-**Build Scripts** 
+### Exec Dependencies
 
-- [@nono303/win-build-scripts](https://github.com/nono303/win-build-scripts)
-
- **x64 Exec Dependencies**
+ **x64**
 
  - **:point_up: cygwin** `3.X.X`
    - *cygwin1.dll*
@@ -53,7 +61,7 @@ So, I provide memcached with both libevent versions:
   - **zlib** `1.3.1`
     - *cygz.dll*  
 
- **x86 Exec Dependencies**
+ **x86**
 
 - **cygwin** `3.3.6`
   - *cygwin1.dll*
@@ -101,6 +109,3 @@ So, I provide memcached with both libevent versions:
    nssm-2.25.0.exe set memcached Start SERVICE_AUTO_START
    nssm-2.25.0.exe set memcached Type SERVICE_WIN32_OWN_PROCESS
    ```
-
-----
-> *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
