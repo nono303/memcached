@@ -33,7 +33,7 @@ So, I provide memcached with both libevent versions:
   > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
 
   - **x64**
-    - **1.6.26**: libevent `2.1.12` ​_2024-04-07_
+    - **1.6.26**: libevent `2.1.12` _2024-04-07_
     - **1.6.24**: libevent `2.0.22` _2024-02-29_ 
 
   - **x86**
