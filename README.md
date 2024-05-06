@@ -10,8 +10,8 @@ There is currently a runtime issue using libevent **2.1** (Cygwin build) on old 
 *see https://gitter.im/msys2/msys2?at=5ce7e6578f019114aeab45c0*  
 
 So, I provide memcached with both libevent versions:  
-- `2.0.22` <= Windows 7 & **cygwin x64** `3.4.10`
-- `2.1.12` > Windows 7 & **cygwin x64** `3.5.1`
+- `2.0.22` <= Windows 7 & **cygwin x64** `3.4.X`
+- `2.1.12` > Windows 7 & **cygwin x64** `3.5.X`
 
 *Don't hesitate to test both of them on your system and give me some feedback because I didn't find a lot of topics on it!*
 
@@ -33,12 +33,13 @@ So, I provide memcached with both libevent versions:
   > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
 
   - **x64**
-    - **1.6.26**: libevent `2.1.12` _2024-04-07_
-    - **1.6.24**: libevent `2.0.22` _2024-02-29_ 
-
+    - :white_check_mark: ​ **1.6.27**: libevent `2.1.12`  **_2024-05-06_ **
+      - *cygwin `3.5.3` gcc `13.2.1` openssl `3.0.13`*
+    - :pause_button:**1.6.24**: libevent `2.0.22` _2024-02-29_ 
+    
   - **x86**
-    - **1.6.21**: libevent `2.1.12` _2023-07-03_
-    - **1.6.21**: libevent `2.0.22` _2023-07-23_
+    - :pause_button:**1.6.21**: libevent `2.1.12` _2023-07-03_
+    - :pause_button:**1.6.21**: libevent `2.0.22` _2023-07-23_
 
 -----
 ### Exec Dependencies
@@ -55,9 +56,9 @@ So, I provide memcached with both libevent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `1.1.1w`
-    - *cygssl-1.1.dll*
-    - *cygcrypto-1.1.dll*
+  - **openssl** `3.0.13`
+    - *cygssl-3.dll*
+    - *cygcrypto-3.dll*
   - **zlib** `1.3.1`
     - *cygz.dll*  
 
