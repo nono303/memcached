@@ -37,8 +37,8 @@ filename;date;x;set;cl;pver;product;description
 /libevent-2.1/x64/cygz.dll;27/01/2024 11:12;64;;2.41;1.3.1;zlib;zlib data compression library
 /libevent-2.1/x64/memcached-avx-tls.exe;21/10/2024 15:56;64;avx (1696);2.43;1.6.32;memcached:memcached-avx-tls;arch:x64-avx gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
 /libevent-2.1/x64/memcached-avx.exe;21/10/2024 15:56;64;avx (1665);2.43;1.6.32;memcached:memcached-avx;arch:x64-avx gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
-/libevent-2.1/x64/memcached-avx2-tls.exe;20/10/2024 09:40;64;avx (1766);2.43;1.6.31;memcached:memcached-avx2-tls;arch:x64-avx2 gcc:13.3.1 libevent:2.1 commit:5609673 tag:1.6.31 date:2024-09-06
-/libevent-2.1/x64/memcached-avx2.exe;20/10/2024 09:40;64;avx (1740);2.43;1.6.31;memcached:memcached-avx2;arch:x64-avx2 gcc:13.3.1 libevent:2.1 commit:5609673 tag:1.6.31 date:2024-09-06
+/libevent-2.1/x64/memcached-avx2-tls.exe;21/10/2024 16:08;64;avx (1766);2.43;1.6.32;memcached:memcached-avx2-tls;arch:x64-avx2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
+/libevent-2.1/x64/memcached-avx2.exe;21/10/2024 16:08;64;avx (1740);2.43;1.6.32;memcached:memcached-avx2;arch:x64-avx2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
 /libevent-2.1/x64/memcached-tls.exe;21/10/2024 15:55;64;;2.43;1.6.32;memcached:memcached-tls;arch:x64-sse2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
 /libevent-2.1/x64/memcached.exe;21/10/2024 15:55;64;;2.43;1.6.32;memcached;arch:x64-sse2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
 /libevent-2.1/x86/cygcrypto-1.1.dll;21/11/2022 09:03;32;avx (1332);2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
