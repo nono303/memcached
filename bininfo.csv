@@ -1,59 +1,59 @@
 filename;date;x;set;cl;pver;product;description
-/libevent-2.0/x64/cygcrypto-1.1.dll;12/09/2023 19:41;64;avx (13665);2.41;1.1.1w;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.0/x64/cygevent-2-0-5.dll;30/11/2021 14:24;64;;2.25;n/a;n/a;n/a
-/libevent-2.0/x64/cygevent_core-2-0-5.dll;30/11/2021 14:24;64;;2.25;n/a;n/a;n/a
-/libevent-2.0/x64/cygevent_extra-2-0-5.dll;30/11/2021 14:24;64;;2.25;n/a;n/a;n/a
-/libevent-2.0/x64/cygevent_openssl-2-0-5.dll;30/11/2021 14:24;64;;2.25;n/a;n/a;n/a
-/libevent-2.0/x64/cygevent_pthreads-2-0-5.dll;30/11/2021 14:24;64;;2.25;n/a;n/a;n/a
-/libevent-2.0/x64/cygssl-1.1.dll;12/09/2023 19:41;64;;2.41;1.1.1w;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.0/x64/cygwin1.dll;29/11/2023 14:20;64;;2.41;3.4.10;Cygwin;Cygwin POSIX Emulation DLL
-/libevent-2.0/x64/cygz.dll;27/01/2024 11:12;64;;2.41;1.3.1;zlib;zlib data compression library
-/libevent-2.0/x64/memcached-avx-tls.exe;29/02/2024 12:29;64;avx (1211);2.42;1.6.24;memcached:memcached-avx-tls;arch:x64-avx gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
-/libevent-2.0/x64/memcached-avx.exe;29/02/2024 12:27;64;avx (1204);2.42;1.6.24;memcached:memcached-avx;arch:x64-avx gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
-/libevent-2.0/x64/memcached-tls.exe;29/02/2024 12:28;64;;2.42;1.6.24;memcached:memcached-tls;arch:x64 gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
-/libevent-2.0/x64/memcached.exe;29/02/2024 12:27;64;;2.42;1.6.24;memcached;arch:x64 gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
-/libevent-2.0/x86/cygcrypto-1.1.dll;05/06/2023 09:44;32;avx (1332);2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.0/x86/cygevent-2-0-5.dll;12/12/2021 10:37;32;;2.25;n/a;n/a;n/a
-/libevent-2.0/x86/cygevent_core-2-0-5.dll;30/11/2021 14:25;32;;2.25;n/a;n/a;n/a
-/libevent-2.0/x86/cygevent_extra-2-0-5.dll;30/11/2021 14:25;32;;2.25;n/a;n/a;n/a
-/libevent-2.0/x86/cygevent_openssl-2-0-5.dll;30/11/2021 14:25;32;;2.25;n/a;n/a;n/a
-/libevent-2.0/x86/cygevent_pthreads-2-0-5.dll;30/11/2021 14:25;32;;2.25;n/a;n/a;n/a
-/libevent-2.0/x86/cyggcc_s-1.dll;06/05/2022 10:13;32;;2.38;n/a;n/a;n/a
-/libevent-2.0/x86/cygssl-1.1.dll;05/06/2023 09:44;32;;2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.0/x86/cygwin1.dll;01/01/1970 02:00;32;;2.37;3.3.6;Cygwin;Cygwin POSIX Emulation DLL
-/libevent-2.0/x86/cygz.dll;05/06/2023 09:44;32;;2.39;1.2.13;zlib;zlib data compression library
-/libevent-2.0/x86/memcached-avx-tls.exe;03/07/2023 07:51;32;avx (833);2.39;1.6.21;memcached:memcached-avx-tls;arch:x86-avx libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
-/libevent-2.0/x86/memcached-avx.exe;03/07/2023 07:50;32;avx (830);2.39;1.6.21;memcached:memcached-avx;arch:x86-avx libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
-/libevent-2.0/x86/memcached-tls.exe;03/07/2023 07:50;32;;2.39;1.6.21;memcached:memcached-tls;arch:x86 libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
-/libevent-2.0/x86/memcached.exe;03/07/2023 07:49;32;;2.39;1.6.21;memcached;arch:x86 libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
-/libevent-2.1/x64/cygcrypto-3.dll;15/09/2024 08:57;64;avx (13752);2.43;3.0.15;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.1/x64/cygevent-2-1-7.dll;30/11/2021 14:22;64;;2.36;n/a;n/a;n/a
-/libevent-2.1/x64/cygevent_core-2-1-7.dll;30/11/2021 14:22;64;;2.36;n/a;n/a;n/a
-/libevent-2.1/x64/cygevent_extra-2-1-7.dll;30/11/2021 14:22;64;;2.36;n/a;n/a;n/a
-/libevent-2.1/x64/cygevent_openssl-2-1-7.dll;30/11/2021 14:22;64;;2.36;n/a;n/a;n/a
-/libevent-2.1/x64/cygevent_pthreads-2-1-7.dll;30/11/2021 14:22;64;;2.36;n/a;n/a;n/a
-/libevent-2.1/x64/cygssl-3.dll;15/09/2024 08:57;64;;2.43;3.0.15;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.1/x64/cygwin1.dll;25/08/2024 19:00;64;;2.43;3.5.4;Cygwin;Cygwin POSIX Emulation DLL
-/libevent-2.1/x64/cygz.dll;27/01/2024 11:12;64;;2.41;1.3.1;zlib;zlib data compression library
-/libevent-2.1/x64/memcached-avx-tls.exe;21/10/2024 15:56;64;avx (1696);2.43;1.6.32;memcached:memcached-avx-tls;arch:x64-avx gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
-/libevent-2.1/x64/memcached-avx.exe;21/10/2024 15:56;64;avx (1665);2.43;1.6.32;memcached:memcached-avx;arch:x64-avx gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
-/libevent-2.1/x64/memcached-avx2-tls.exe;21/10/2024 16:08;64;avx (1766);2.43;1.6.32;memcached:memcached-avx2-tls;arch:x64-avx2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
-/libevent-2.1/x64/memcached-avx2.exe;21/10/2024 16:08;64;avx (1740);2.43;1.6.32;memcached:memcached-avx2;arch:x64-avx2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
-/libevent-2.1/x64/memcached-tls.exe;21/10/2024 15:55;64;;2.43;1.6.32;memcached:memcached-tls;arch:x64-sse2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
-/libevent-2.1/x64/memcached.exe;21/10/2024 15:55;64;;2.43;1.6.32;memcached;arch:x64-sse2 gcc:13.3.1 libevent:2.1 commit:8203c93 tag:1.6.32 date:2024-10-20
-/libevent-2.1/x86/cygcrypto-1.1.dll;21/11/2022 09:03;32;avx (1332);2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.1/x86/cygevent-2-1-7.dll;30/11/2021 14:22;32;;2.29;n/a;n/a;n/a
-/libevent-2.1/x86/cygevent_core-2-1-7.dll;30/11/2021 14:22;32;;2.29;n/a;n/a;n/a
-/libevent-2.1/x86/cygevent_extra-2-1-7.dll;30/11/2021 14:22;32;;2.29;n/a;n/a;n/a
-/libevent-2.1/x86/cygevent_openssl-2-1-7.dll;30/11/2021 14:22;32;;2.29;n/a;n/a;n/a
-/libevent-2.1/x86/cygevent_pthreads-2-1-7.dll;30/11/2021 14:22;32;;2.29;n/a;n/a;n/a
-/libevent-2.1/x86/cyggcc_s-1.dll;06/05/2022 09:22;32;;2.38;n/a;n/a;n/a
-/libevent-2.1/x86/cygssl-1.1.dll;21/11/2022 09:03;32;;2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
-/libevent-2.1/x86/cygwin1.dll;01/01/1970 02:00;32;;2.37;3.3.6;Cygwin;Cygwin POSIX Emulation DLL
-/libevent-2.1/x86/cygz.dll;21/11/2022 09:03;32;;2.39;1.2.13;zlib;zlib data compression library
-/libevent-2.1/x86/memcached-avx-tls.exe;03/07/2023 08:01;32;avx (833);2.39;1.6.21;memcached:memcached-avx-tls;arch:x86-avx libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
-/libevent-2.1/x86/memcached-avx.exe;03/07/2023 08:01;32;avx (830);2.39;1.6.21;memcached:memcached-avx;arch:x86-avx libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
-/libevent-2.1/x86/memcached-tls.exe;03/07/2023 08:01;32;;2.39;1.6.21;memcached:memcached-tls;arch:x86 libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
-/libevent-2.1/x86/memcached.exe;03/07/2023 08:01;32;;2.39;1.6.21;memcached;arch:x86 libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
-/nssm/x64/nssm-2.25.0.exe;09/03/2023 12:08;64;avx (248);14.36;2.2.25.0;nssm:nssm-2.25.0;arch:x64-avx vcver:14.36[vs17] commit:a1c3260 branch:master date:2021-12-16
-/nssm/x86/nssm-2.25.0.exe;09/03/2023 12:08;32;avx (84);14.36;2.2.25.0;nssm:nssm-2.25.0;arch:x86-avx vcver:14.36[vs17] commit:a1c3260 branch:master date:2021-12-16
+/libevent-2.0/x64/cygcrypto-1.1.dll;12/09/2023 18:41;64;avx (13665);2.41;1.1.1w;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.0/x64/cygevent-2-0-5.dll;30/11/2021 13:24;64;;2.25;n/a;n/a;n/a
+/libevent-2.0/x64/cygevent_core-2-0-5.dll;30/11/2021 13:24;64;;2.25;n/a;n/a;n/a
+/libevent-2.0/x64/cygevent_extra-2-0-5.dll;30/11/2021 13:24;64;;2.25;n/a;n/a;n/a
+/libevent-2.0/x64/cygevent_openssl-2-0-5.dll;30/11/2021 13:24;64;;2.25;n/a;n/a;n/a
+/libevent-2.0/x64/cygevent_pthreads-2-0-5.dll;30/11/2021 13:24;64;;2.25;n/a;n/a;n/a
+/libevent-2.0/x64/cygssl-1.1.dll;12/09/2023 18:41;64;;2.41;1.1.1w;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.0/x64/cygwin1.dll;29/11/2023 13:20;64;;2.41;3.4.10;Cygwin;Cygwin POSIX Emulation DLL
+/libevent-2.0/x64/cygz.dll;27/01/2024 10:12;64;;2.41;1.3.1;zlib;zlib data compression library
+/libevent-2.0/x64/memcached-avx-tls.exe;29/02/2024 11:29;64;avx (1211);2.42;1.6.24;memcached:memcached-avx-tls;arch:x64-avx gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
+/libevent-2.0/x64/memcached-avx.exe;29/02/2024 11:27;64;avx (1204);2.42;1.6.24;memcached:memcached-avx;arch:x64-avx gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
+/libevent-2.0/x64/memcached-tls.exe;29/02/2024 11:28;64;;2.42;1.6.24;memcached:memcached-tls;arch:x64 gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
+/libevent-2.0/x64/memcached.exe;29/02/2024 11:27;64;;2.42;1.6.24;memcached;arch:x64 gcc:11.4.0 libevent:2.0 commit:1b3b855 tag:1.6.24 date:2024-02-27
+/libevent-2.0/x86/cygcrypto-1.1.dll;05/06/2023 08:44;32;avx (1332);2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.0/x86/cygevent-2-0-5.dll;12/12/2021 09:37;32;;2.25;n/a;n/a;n/a
+/libevent-2.0/x86/cygevent_core-2-0-5.dll;30/11/2021 13:25;32;;2.25;n/a;n/a;n/a
+/libevent-2.0/x86/cygevent_extra-2-0-5.dll;30/11/2021 13:25;32;;2.25;n/a;n/a;n/a
+/libevent-2.0/x86/cygevent_openssl-2-0-5.dll;30/11/2021 13:25;32;;2.25;n/a;n/a;n/a
+/libevent-2.0/x86/cygevent_pthreads-2-0-5.dll;30/11/2021 13:25;32;;2.25;n/a;n/a;n/a
+/libevent-2.0/x86/cyggcc_s-1.dll;06/05/2022 09:13;32;;2.38;n/a;n/a;n/a
+/libevent-2.0/x86/cygssl-1.1.dll;05/06/2023 08:44;32;;2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.0/x86/cygwin1.dll;01/01/1970 01:00;32;;2.37;3.3.6;Cygwin;Cygwin POSIX Emulation DLL
+/libevent-2.0/x86/cygz.dll;05/06/2023 08:44;32;;2.39;1.2.13;zlib;zlib data compression library
+/libevent-2.0/x86/memcached-avx-tls.exe;03/07/2023 06:51;32;avx (833);2.39;1.6.21;memcached:memcached-avx-tls;arch:x86-avx libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
+/libevent-2.0/x86/memcached-avx.exe;03/07/2023 06:50;32;avx (830);2.39;1.6.21;memcached:memcached-avx;arch:x86-avx libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
+/libevent-2.0/x86/memcached-tls.exe;03/07/2023 06:50;32;;2.39;1.6.21;memcached:memcached-tls;arch:x86 libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
+/libevent-2.0/x86/memcached.exe;03/07/2023 06:49;32;;2.39;1.6.21;memcached;arch:x86 libevent:2.0 commit:efee763 tag:1.6.21 date:2023-06-15
+/libevent-2.1/x64/cygcrypto-3.dll;15/09/2024 07:57;64;avx (13752);2.43;3.0.15;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.1/x64/cygevent-2-1-7.dll;30/11/2021 13:22;64;;2.36;n/a;n/a;n/a
+/libevent-2.1/x64/cygevent_core-2-1-7.dll;30/11/2021 13:22;64;;2.36;n/a;n/a;n/a
+/libevent-2.1/x64/cygevent_extra-2-1-7.dll;30/11/2021 13:22;64;;2.36;n/a;n/a;n/a
+/libevent-2.1/x64/cygevent_openssl-2-1-7.dll;30/11/2021 13:22;64;;2.36;n/a;n/a;n/a
+/libevent-2.1/x64/cygevent_pthreads-2-1-7.dll;30/11/2021 13:22;64;;2.36;n/a;n/a;n/a
+/libevent-2.1/x64/cygssl-3.dll;15/09/2024 07:57;64;;2.43;3.0.15;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.1/x64/cygwin1.dll;25/08/2024 18:00;64;;2.43;3.5.4;Cygwin;Cygwin POSIX Emulation DLL
+/libevent-2.1/x64/cygz.dll;27/01/2024 10:12;64;;2.41;1.3.1;zlib;zlib data compression library
+/libevent-2.1/x64/memcached-avx-tls.exe;07/12/2024 16:33;64;avx (1422);2.43;1.6.33;memcached:memcached-avx-tls;arch:x64-avx gcc:15.0.0 libevent:2.1 commit:5b84e42 tag:1.6.33 date:2024-12-02
+/libevent-2.1/x64/memcached-avx.exe;07/12/2024 16:33;64;avx (1395);2.43;1.6.33;memcached:memcached-avx;arch:x64-avx gcc:15.0.0 libevent:2.1 commit:5b84e42 tag:1.6.33 date:2024-12-02
+/libevent-2.1/x64/memcached-avx2-tls.exe;07/12/2024 16:46;64;avx (1392);2.43;1.6.33;memcached:memcached-avx2-tls;arch:x64-avx2 gcc:15.0.0 libevent:2.1 commit:5b84e42 tag:1.6.33 date:2024-12-02
+/libevent-2.1/x64/memcached-avx2.exe;07/12/2024 16:45;64;avx (1370);2.43;1.6.33;memcached:memcached-avx2;arch:x64-avx2 gcc:15.0.0 libevent:2.1 commit:5b84e42 tag:1.6.33 date:2024-12-02
+/libevent-2.1/x64/memcached-tls.exe;07/12/2024 16:09;64;;2.43;1.6.33;memcached:memcached-tls;arch:x64-sse2 gcc:15.0.0 libevent:2.1 commit:5b84e42 tag:1.6.33 date:2024-12-02
+/libevent-2.1/x64/memcached.exe;07/12/2024 16:08;64;;2.43;1.6.33;memcached;arch:x64-sse2 gcc:15.0.0 libevent:2.1 commit:5b84e42 tag:1.6.33 date:2024-12-02
+/libevent-2.1/x86/cygcrypto-1.1.dll;21/11/2022 08:03;32;avx (1332);2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.1/x86/cygevent-2-1-7.dll;30/11/2021 13:22;32;;2.29;n/a;n/a;n/a
+/libevent-2.1/x86/cygevent_core-2-1-7.dll;30/11/2021 13:22;32;;2.29;n/a;n/a;n/a
+/libevent-2.1/x86/cygevent_extra-2-1-7.dll;30/11/2021 13:22;32;;2.29;n/a;n/a;n/a
+/libevent-2.1/x86/cygevent_openssl-2-1-7.dll;30/11/2021 13:22;32;;2.29;n/a;n/a;n/a
+/libevent-2.1/x86/cygevent_pthreads-2-1-7.dll;30/11/2021 13:22;32;;2.29;n/a;n/a;n/a
+/libevent-2.1/x86/cyggcc_s-1.dll;06/05/2022 08:22;32;;2.38;n/a;n/a;n/a
+/libevent-2.1/x86/cygssl-1.1.dll;21/11/2022 08:03;32;;2.39;1.1.1s;The OpenSSL Toolkit;OpenSSL library
+/libevent-2.1/x86/cygwin1.dll;01/01/1970 01:00;32;;2.37;3.3.6;Cygwin;Cygwin POSIX Emulation DLL
+/libevent-2.1/x86/cygz.dll;21/11/2022 08:03;32;;2.39;1.2.13;zlib;zlib data compression library
+/libevent-2.1/x86/memcached-avx-tls.exe;03/07/2023 07:01;32;avx (833);2.39;1.6.21;memcached:memcached-avx-tls;arch:x86-avx libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
+/libevent-2.1/x86/memcached-avx.exe;03/07/2023 07:01;32;avx (830);2.39;1.6.21;memcached:memcached-avx;arch:x86-avx libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
+/libevent-2.1/x86/memcached-tls.exe;03/07/2023 07:01;32;;2.39;1.6.21;memcached:memcached-tls;arch:x86 libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
+/libevent-2.1/x86/memcached.exe;03/07/2023 07:01;32;;2.39;1.6.21;memcached;arch:x86 libevent:2.1 commit:efee763 tag:1.6.21 date:2023-06-15
+/nssm/x64/nssm-2.25.0.exe;09/03/2023 11:08;64;avx (248);14.36;2.2.25.0;nssm:nssm-2.25.0;arch:x64-avx vcver:14.36[vs17] commit:a1c3260 branch:master date:2021-12-16
+/nssm/x86/nssm-2.25.0.exe;09/03/2023 11:08;32;avx (84);14.36;2.2.25.0;nssm:nssm-2.25.0;arch:x86-avx vcver:14.36[vs17] commit:a1c3260 branch:master date:2021-12-16
