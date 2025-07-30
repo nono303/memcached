@@ -29,12 +29,12 @@ So, I provide memcached with both libevent versions:
 
 ### Release
 
-  > _:warning: Only **x64 libevent 2.1** is maintained_  
+  > _:warning: Only **x64 libevent 2.1** is maintained
   > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
 
   - **x64**
-    - :white_check_mark:  **[1.6.38](https://github.com/memcached/memcached/releases/tag/1.6.38)**: libevent `2.1.12`  **_2025-03-19_**
-      - *cygwin `3.6.0` gcc `15.0.0 20250105` openssl `3.0.16`*
+    - :white_check_mark:  **[1.6.39](https://github.com/memcached/memcached/releases/tag/1.6.39)**: libevent `2.1.12`  **_2025-07-29_**
+      - *cygwin `3.7.0` gcc `16.0.0` openssl `3.0.17`*
     - :pause_button:**1.6.24**: libevent `2.0.22` _2024-02-29_ 
     
   - **x86**
@@ -46,7 +46,7 @@ So, I provide memcached with both libevent versions:
 
  **x64**
 
- - **:point_up: cygwin** `3.X.X`
+ - **:point_up: cygwin** `3.X.Y`
    - *cygwin1.dll*
  - :point_up:  **libevent** `2.X.Y` 
    - *cygevent_core-2-X-Y.dll*
@@ -56,7 +56,7 @@ So, I provide memcached with both libevent versions:
    - *cygevent-2-X-Y.dll*
 
 :warning: for **TLS** only
-  - **openssl** `3.0.13`
+  - **openssl** `3.X.Y`
     - *cygssl-3.dll*
     - *cygcrypto-3.dll*
   - **zlib** `1.3.1`
