@@ -29,61 +29,18 @@ So, I provide memcached with both libevent versions:
 
 ### Release
 
-  > _:warning: Only **x64 libevent 2.1** is maintained
+  >  :warning: Only **x64 libevent 2.1** is maintained
   > *Older versions `1.4.25. 1.4.33 1.4.35 1.4.36 1.4.39 1.5 1.5.1 1.5.2 1.5.3` are available under **tag memcache-1.5.3**...*
 
   - **x64**
-    - :white_check_mark:  **[1.6.40](https://github.com/memcached/memcached/releases/tag/1.6.40)**: libevent `2.1.12`  **_2025-12-17_**
-      - *cygwin `3.7.0` gcc `16.0.0` openssl `3.0.18`*
+    - :white_check_mark:  **[1.6.41](https://github.com/memcached/memcached/releases/tag/1.6.41)**: libevent `2.1.12`  **_2026-03-06_**
+      - *gcc `16.0.1` cygwin `3.7.0`*
+      - *openssl `3.0.19` libevent `2.1.7` zlib `1.3.2`*
     - :pause_button:**1.6.24**: libevent `2.0.22` _2024-02-29_ 
     
   - **x86**
     - :pause_button:**1.6.21**: libevent `2.1.12` _2023-07-03_
     - :pause_button:**1.6.21**: libevent `2.0.22` _2023-07-23_
-
------
-### Exec Dependencies
-
- **x64**
-
- - **:point_up: cygwin** `3.X.Y`
-   - *cygwin1.dll*
- - :point_up:  **libevent** `2.X.Y` 
-   - *cygevent_core-2-X-Y.dll*
-   - *cygevent_extra-2-X-Y.dll*
-   - *cygevent_openssl-2-X-Y.dll*
-   - *cygevent_pthreads-2-X-Y.dll*
-   - *cygevent-2-X-Y.dll*
-
-:warning: for **TLS** only
-  - **openssl** `3.X.Y`
-    - *cygssl-3.dll*
-    - *cygcrypto-3.dll*
-  - **zlib** `1.3.1`
-    - *cygz.dll*  
-
- **x86**
-
-- **cygwin** `3.3.6`
-  - *cygwin1.dll*
-  
- - :point_up:  **libevent** `2.X.Y` 
-   - *cygevent_core-2-X-Y.dll*
-   - *cygevent_extra-2-X-Y.dll*
-   - *cygevent_openssl-2-X-Y.dll*
-   - *cygevent_pthreads-2-X-Y.dll*
-   - *cygevent-2-X-Y.dll*
-
-:warning: for **TLS** only
-  - **openssl** `1.1.1s`
-    - *cygssl-1.1.dll*
-    - *cygcrypto-1.1.dll*
-  - **zlib** `1.2.13`
-    - *cygz.dll*  
-
-:warning: for **x86 TLS** only
-  - **libgcc** `11.3.0`
-    - *cyggcc_s-1.dll*
 
 ----
 
